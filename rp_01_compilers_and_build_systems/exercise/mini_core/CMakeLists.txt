@@ -24,4 +24,4 @@ find_package(Eigen3 REQUIRED)
 # add project source code
 add_subdirectory(src)
 # TODO do the same for executables
-add subdirectory(executables)
+add_subdirectory(executables)
