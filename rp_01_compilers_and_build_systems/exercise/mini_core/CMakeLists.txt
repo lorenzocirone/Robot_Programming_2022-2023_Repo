@@ -17,9 +17,11 @@ endif()
 
 
 # TODO invokes the routines to find a package called Eigen3
+find_package(Eigen3 REQUIRED)
 
 # TODO specify additional locations of header files
 
 # add project source code
 add_subdirectory(src)
 # TODO do the same for executables
+add subdirectory(executables)
