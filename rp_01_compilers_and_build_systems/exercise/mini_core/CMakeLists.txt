@@ -20,8 +20,12 @@ endif()
 find_package(Eigen3 REQUIRED)
 
 # TODO specify additional locations of header files
+include_directories(
+  ${EIGEN3_INCLUDE_DIR}
+  $(PROJECT_SOURCE_DIR)/src
+  )
 
-# add project source code
+# add project source code, nested CMakeLists
 add_subdirectory(src)
 # TODO do the same for executables
 add_subdirectory(executables)

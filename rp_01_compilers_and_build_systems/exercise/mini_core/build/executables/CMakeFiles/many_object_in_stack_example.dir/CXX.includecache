@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_01_compilers_and_build_systems/exercise/mini_core/executables/many_object_in_stack_example.cpp
+iostream
+-
+utils/deserializer.h
+-
+utils/identifiable.h
+-
+utils/property_container_manager.h
+-
+utils/serialization_context.h
+-
+utils/object_data.h
+-
+messages/pose_message.h
+-
+messages/odometry_message.h
+-
+data_structures/matrix.h
+-
+
