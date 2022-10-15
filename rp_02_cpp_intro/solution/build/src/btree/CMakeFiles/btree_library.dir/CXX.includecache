@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/btree/btree.cpp
+btree.h
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/btree/btree.h
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/btree/btree.h
+iostream
+-
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/vec_f.h
+iostream
+-
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/vec_f_test.cpp
+iostream
+-
+vec_f.h
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/vec_f.h
+

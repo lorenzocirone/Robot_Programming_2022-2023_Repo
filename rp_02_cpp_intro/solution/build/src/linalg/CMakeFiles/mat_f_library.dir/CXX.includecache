@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/mat_f.cpp
+mat_f.h
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/mat_f.h
+assert.h
+-
+iostream
+-
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/mat_f.h
+vec_f.h
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/vec_f.h
+
+/home/loreciro/Desktop/ROBOT PROGRAMMING/rp_02_cpp_intro/solution/src/linalg/vec_f.h
+iostream
+-
+
